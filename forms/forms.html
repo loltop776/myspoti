@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="icon" href="../img/icono_pag_registrado.svg">
+</head>
+<body>
+
+    <header>
+        <a href="../index.html"><img width="5%" src="../img/flecha_izquierda.svg" alt="No se ha podido cargar la imagen"></a>
+    </header>
+
+    <table>
+        <tr>
+            <td width="33%"></td>
+            <td width="33%">
+                <fieldset>
+
+                    <legend style="font-size: 30px;">Registro</legend>
+
+                    <fieldset>
+
+                        <legend>Nombre:</legend>
+
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej. Jesus">
+
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+
+                        <legend>Apellidos:</legend>
+
+                        <input type="text" id="apellidos" name="apellidos" placeholder="Ej. Fortea Fatsini">
+
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+
+                        <legend>Idioma:</legend>
+
+                        <label for="castellano"> Castellano </label>
+                        <input type="radio" id="castellano" name="idioma" value="castellano">
+                
+                        <label for="catalan"> Catalán </label>
+                        <input type="radio" id="catalan" name="idioma" value="catalan">
+                
+                        <label for="ingles"> Inglés </label>
+                        <input type="radio" id="ingles" name="idioma" value="ingles">
+
+                        <label for="frances"> Francés </label>
+                        <input type="radio" id="frances" name="idioma" value="frances">
+
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+
+                        <legend>Correo:</legend>
+
+                        <input type="email" id="email" name="correo" placeholder="ejemplo@gmail.com">
+                        
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+
+                        <legend>Edad:</legend>
+
+                        <input type="number" id="edad" name="edad" placeholder="18" min="0" max="100">
+                        
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+
+                        <legend>Teléfono:</legend>
+
+                        <input type="tel" id="telefono" name="telefono" placeholder="287-67-23-19" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}">
+                        
+                    </fieldset>
+                    
+                    <br>
+
+                    <button type="submit">Enviar datos</button>
+
+
+                </fieldset>
+            </td>
+            <td width="33%"></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
